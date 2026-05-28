@@ -22,6 +22,12 @@ const SLIDES: Slide[] = [
     title: 'Lingkungan Sekolah Modern & Nyaman',
     subtitle: 'Gedung sekolah representatif dengan fasilitas lengkap untuk mendukung kegiatan belajar siswa',
   },
+  {
+    image: '/FASILITAS-SEKOLAH.png',
+    badge: 'AKTIVITAS',
+    title: 'Lingkungan Belajar Aktif & Positif',
+    subtitle: 'Suasana sekolah yang penuh semangat dengan kegiatan siswa yang aktif, nyaman, dan inspiratif',
+  },
 ]
 
 const ACTIVE_SLIDES = SLIDES
