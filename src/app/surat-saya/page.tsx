@@ -61,19 +61,19 @@ export default async function SuratSayaPage() {
       {/* Konten */}
       <main className="mx-auto max-w-3xl px-4 py-8 sm:px-6">
         {/* Teks sambutan */}
-        <div className="mb-10 text-center">
+        {/* <div className="mb-10 text-center">
           <p className="text-base text-gray-700">INFO PENGUMUMAN KELULUSAN</p>
           <p className="mt-5 mb-5 text-5xl font-bold text-gray-900 tracking-wide">tunggu yaaaa</p>
           <p className="mt-1 text-base text-gray-700">02 juni 2026</p>
-        </div>
+        </div> */}
 
         {/* Teks sambutan lama (jangan dihapus) */}
-        {/* <div className="mb-10 text-center">
+        <div className="mb-10 text-center">
           <p className="text-base text-gray-700">Selamat Anda telah dinyatakan</p>
           <p className="mt-5 mb-5 text-5xl font-bold text-gray-900 tracking-wide">LULUS</p>
           <p className="text-base text-gray-700">dari SMP Muhammadiyah 14</p>
           <p className="mt-1 text-base text-gray-700">Tahun Ajaran 2025/2026.</p>
-        </div> */}
+        </div>
 
         <h2 className="mb-6 text-lg font-medium text-gray-700">Surat Saya</h2>
         <SuratSayaList items={items} />
